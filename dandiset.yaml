@@ -7,9 +7,32 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 184843432
+  numberOfFiles: 70
+  numberOfSubjects: 6
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ProcessingModule
+  - ElectrodeGroup
 citation: Taniguchi, Masachika (2025) Neural activity in rat nucleus accumbens and
   ventral pallidum during probabilistic free-choice decision-making (Ito & Doya 2009)
   (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001641/draft
