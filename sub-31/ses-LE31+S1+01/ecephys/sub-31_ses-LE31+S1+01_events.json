@@ -1,0 +1,81 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "block": {
+        "Description": "Id of the block of trial"
+    },
+    "tone_on_time": {
+        "Description": "Onset time of the cue tone (Tone A or B) "
+    },
+    "tone_off_time": {
+        "Description": "Offset time of the cue tone (Tone A or B)"
+    },
+    "action_on_time": {
+        "Description": "Onset time of poking L or R"
+    },
+    "action_off_time": {
+        "Description": "Offset time of poking L or R"
+    },
+    "pokeC_on_time": {
+        "Description": "Onset time of the poking C."
+    },
+    "pokeC_off_time": {
+        "Description": "Offset time of the poking C. It can be regarded as the onset of the action selection."
+    },
+    "reward_on_time": {
+        "Description": "Onset time of the sensor in the pellet dish. The sensor detects the existence of a pellet on the dish."
+    },
+    "reward_off_time": {
+        "Description": "Offset time of the sensor in the pellet dish. It was the time when the rat picked up the pellet."
+    },
+    "state": {
+        "Description": "\nthe type of the cue tone presented in i th trial\n1: Tone A\n2: Tone B\n"
+    },
+    "action": {
+        "Description": "\nselected action in i th trial\n1: Left\n2: Right\nNaN: Tone B Trial or Error Trial\n"
+    },
+    "reward": {
+        "Description": "\nReward outcome\n1: rewarded\n0: no-rewarded\n"
+    },
+    "result": {
+        "Description": "\nstart_time: onset of start tone\nstop_time : end time\nresult    : Result(Refer to the Discription in 'Result' column)\n"
+    },
+    "FinishedBlock": {
+        "Description": "1 if block finished, else 0"
+    },
+    "FirstTrial": {
+        "Description": "ID of the first trial in block"
+    },
+    "LastTrial": {
+        "Description": "ID of the last trial in block"
+    },
+    "RewardRule_L": {
+        "Description": "Reward probability for Left (Tone A)"
+    },
+    "RewardRule_R": {
+        "Description": "Reward probability for Right (Tone A)"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file.",
+            "BlockDesign": "The 'BlockDesign' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial",
+            "BlockDesign": "Time-interval"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    },
+    "BlockDesign": {
+        "Description": "id: running index of blocks; start/stop: first/last trial times; FinishedBlock(1/0), FirstTrial, LastTrial, RewardRule_L, RewardRule_R."
+    }
+}
