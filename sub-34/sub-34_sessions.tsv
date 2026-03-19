@@ -1,10 +1,10 @@
-session_id
-ses-LE34+S1+01
-ses-LE34+S1+02
-ses-LE34+S1+03
-ses-LE34+S1+04
-ses-LE34+S1+05
-ses-LE34+S1+06
-ses-LE34+S1+07
-ses-LE34+S1+08
-ses-LE34+S1+09
+session_id	original_session_id
+ses-LE34+S1+01	ses-LE34_S1_01
+ses-LE34+S1+02	ses-LE34_S1_02
+ses-LE34+S1+03	ses-LE34_S1_03
+ses-LE34+S1+04	ses-LE34_S1_04
+ses-LE34+S1+05	ses-LE34_S1_05
+ses-LE34+S1+06	ses-LE34_S1_06
+ses-LE34+S1+07	ses-LE34_S1_07
+ses-LE34+S1+08	ses-LE34_S1_08
+ses-LE34+S1+09	ses-LE34_S1_09
